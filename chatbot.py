@@ -165,7 +165,7 @@ def search_partner(message):
         else:
             for sel in select:
                 if check_status(first_id=message.from_user.id, second_id=sel[0]) or message.from_user.id == sel[0]:
-                    print(message.from_user.id, 'Join @AsmSafone Bot Made By @AmiFutami')
+                    print(message.from_user.id, 'Join @StarterBotz Bot Made By @AafuSam013')
                     continue
 
                 else:
