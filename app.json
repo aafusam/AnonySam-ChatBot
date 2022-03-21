@@ -1,7 +1,7 @@
 {
-  "name": "AnonymousChatBot",
+  "name": "AnonySam-ChatBot",
   "description": "Simple Chat Bot In English.",
-  "repository": "https://github.com/Achu2234/AnonymousChatBot",
+  "repository": "https://github.com/aafusam/AnonySam-ChatBot",
   "env": {
     "TOKEN": {
       "description": "Get it on @botfather",
@@ -9,22 +9,22 @@
     },
     "OWNER": {
       "description": "Fill in your username without the sign @",
-      "value": "AmiFutami"
+      "value": "AafuSam"
     },
     "GROUP": {
       "description": "Fill it with your group username without the @ sign, if you don't have it, don't fill it in",
       "required": false,
-      "value": "SafoTheBot"
+      "value": "StarterMovies"
     },
     "BOT_NAME": {
       "description": "Fill in the name of your bot",
       "required": false,
-      "value": "Anonymous ChatBot"
+      "value": "AnonySam-ChatBot"
     },
     "CHANNEL": {
       "description": "Fill it with your channel username without the @ sign, if you don't have it, don't fill it in",
       "required": false,
-      "value": "AsmSafone"
+      "value": "StarterNetworkz"
     }
   }
 }
