@@ -42,7 +42,7 @@ def welcome(message):
         bot.send_message(message.from_user.id, f"*Welcome to Join {BOT_NAME}🙊*\n\n_Hope you get a friend or a mate_\n\n*NOTE:*\nJOIN\n[👥 ɢʀᴏᴜᴘ](t.me/{GROUP}) | [ᴄʜᴀɴɴᴇʟ 📣](t.me/{CHANNEL}) | [📱ᴏᴡɴᴇʀ](t.me/{OWNER})",parse_mode="markdown",disable_web_page_preview=True, reply_markup=mark)
         bot.register_next_step_handler(message, search_prof)
     else:
-        message.reply_text(f"👋Hello {message.from_user.first_name}, To Continue Filling The Following Bio data!_",parse_mode="markdown")
+        bot.send_message(message.from_user.id, "➡️ *Your name :*", parse_mode="markdown") To Continue Filling The Following Bio data!_",parse_mode="markdown")
         bot.send_message(message.from_user.id, "➡️ *Your name :*", parse_mode="markdown")
         bot.register_next_step_handler(message, reg_name)
 
