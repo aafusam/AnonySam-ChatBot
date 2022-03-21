@@ -19,7 +19,7 @@ A Simple Telegram Bot To Chat Other in telegram by A bot
 Deploy Your Own Bot ♥️ **Star 🌟 Fork 🍴 & Deploy**
 
 ### Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Achu2234/AnonymousChatBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aafusam/AnonySam-ChatBot)
 
 
 # License
